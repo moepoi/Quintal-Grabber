@@ -22,7 +22,7 @@ class Quintal(object):
         city = data["student_class_semester"]["profile"]["city"]
         province = data["student_class_semester"]["profile"]["province"]
         country = data["student_class_semester"]["profile"]["country"]
-        profilephoto = data["student_class_semester"]["profile"]["profile_photo"]
+        profilephoto = self.host + data["student_class_semester"]["profile"]["profile_photo"]
         birthdate = data["student_class_semester"]["profile"]["birth_date"]
         sectionname = data["student_class_semester"]["section_name"]
         gradename = data["student_class_semester"]["grade_name"]
