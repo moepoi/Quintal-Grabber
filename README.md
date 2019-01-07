@@ -1,15 +1,26 @@
 # Quintal Grabber
 
-*Get Information from Quintal Private API*
+*Get Data from Quintal Private API*
 
-----
+## Installation
+
+Installation is simple. It can be installed from pip using the following command:
+```sh
+$ pip3 install -r requirements.txt
+```
 
 ## Usage
 
 ```sh
-$ python3 example_run.py
+from Quintal import QuintalGrabber
+
+id = 123456
+quintal = QuintalGrabber(id)
+#x = quintal.get_data("email")
+x = quintal.get_data()
+print (x)
 ```
 
-## Created By
+## Credit
 
 Moe Poi ~ / [@moepoi](https://gitlab.com/moepoi)
