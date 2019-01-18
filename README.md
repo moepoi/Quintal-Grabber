@@ -23,4 +23,4 @@ print (x)
 
 ## Credit
 
-Moe Poi ~ / [@moepoi](https://gitlab.com/moepoi)
+Moe Poi ~ / [@moepoi](https://github.com/moepoi)
