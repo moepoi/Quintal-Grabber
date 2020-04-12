@@ -17,10 +17,9 @@ class QuintalGrabber:
         self.host = "https://quintal.id"
         self.id = str(id)
         self.endpoint = "/id/api/initial_data/{}/?format=json".format(self.id)
-        try:
-            self.req = requests.get(self.host + self.endpoint)
-            self.data = json.loads(self.req.text)
-        except:
+        self.req = requests.get(self.host + self.endpoint)
+        self.data = json.loads(self.req.text)
+        if "status" in self.data:
             print ("Invalid ID")
             sys.exit()
 
