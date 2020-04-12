@@ -1,0 +1,13 @@
+image: "python:3.6-stretch"
+stages: [ install, deploy ]
+
+requirements:
+  stage: install
+  script:
+    - pip install -r requirements.txt
+
+test:
+  stage: deploy
+  script:
+    - pip install -r requirements.txt
+    - python example.py
