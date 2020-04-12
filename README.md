@@ -14,10 +14,9 @@ $ pip3 install -r requirements.txt
 ```sh
 from Quintal import QuintalGrabber
 
-id = 123456
+id = 3645
 quintal = QuintalGrabber(id)
-#x = quintal.get_data("email")
-x = quintal.get_data()
+x = quintal.get_identity()
 print (x)
 ```
 
