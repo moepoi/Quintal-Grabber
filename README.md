@@ -2,6 +2,8 @@
 
 *Get Data from Quintal Private API*
 
+[![pipeline status](https://gitlab.com/moepoi/Quintal-Grabber/badges/master/pipeline.svg)](https://gitlab.com/moepoi/Quintal-Grabber/-/commits/master)
+
 ## Installation
 
 Installation is simple. It can be installed from pip using the following command:
